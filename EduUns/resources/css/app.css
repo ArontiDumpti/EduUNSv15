@@ -72,6 +72,10 @@ header .left h1 span{
     color: #0f2182;
 }
 
+header .left h1 span2{
+    color: #a31326;
+}
+
 header .left p{
     margin: 40px 0;
     color: #777;
