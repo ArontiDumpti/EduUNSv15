@@ -507,63 +507,105 @@ footer .right p{
     }
 
     nav a.logo{
+        font-size: 24px;
+    }
+
+    nav .links{
         display: none;
     }
 
-    nav .links a{
-        font-size: 12px;
+    nav .login button{
+        padding: 8px 10px;
     }
 
-    nav .login button{
-        font-size: 12px;
-        padding: 6px 10px;
+    nav .login button.signup{
+        margin-right: 0;
+    }
+
+    header .left{
+        width: 100%;
     }
 
     header .left h1{
         font-size: 36px;
     }
 
-    header .left p{
-        font-size: 14px;
-    }
-
-    header .left a{
-        padding: 6px;
-        width: 160px;
-        font-size: 14px;
-    }
-
-    header .left a i{
-        padding: 6px;
+    header img{
+        width: 100%;
+        margin-top: 40px;
     }
 
     h2.separator{
-        font-size: 30px;
+        font-size: 24px;
     }
 
-    footer{
-        padding: 40px 20px;
-    }
-
-}
-
-@media screen and (max-width: 576px) {
-    
-    header .left h1{
-        font-size: 30px;
+    .sell-nft{
+        flex-direction: column;
+        gap: 20px;
     }
 
     .sell-nft .item{
         width: 100%;
     }
 
-    .nft-shop .nft-list .item,
-    .sellers .item{
-        width: 47%;
+    .nft-shop .nft-list{
+        flex-direction: column;
     }
 
-    .nft-shop .category a{
-        font-size: 13px;
+    .nft-shop .nft-list .item{
+        width: 100%;
+    }
+
+    .nft-shop .nft-list .item img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .sellers{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sellers .item{
+        width: 100%;
+    }
+
+    footer{
+        padding: 60px 20px;
+    }
+
+    footer h3{
+        font-size: 24px;
+    }
+
+    footer .right{
+        gap: 14px;
+    }
+
+    footer .right .links{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    
+    header .left h1{
+        font-size: 28px;
+    }
+
+    .sell-nft .item .header i{
+        font-size: 32px;
+    }
+
+    .sell-nft .item .header h5{
+        font-size: 14px;
+    }
+
+    footer h3{
+        font-size: 20px;
     }
 
 }
